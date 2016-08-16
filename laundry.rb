@@ -13,7 +13,7 @@ def dry(dryer_type)
 end
 2.times do
   wear(:ambi_swoosh)
-  wash(60)
+  wash(35)
   dry(:ambi_swoosh)
 end
 2.times do

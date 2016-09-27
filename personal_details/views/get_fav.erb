@@ -1,0 +1,11 @@
+Okay <%= name %>, Tell us your 3 fav numbers
+
+<form method= "post" action = "/fav_num">
+
+<input type = "number" name = "user_fav1" > <br>
+<input type = "number" name = "user_fav2" > <br>
+<input type = "number" name = "user_fav3" > <br>
+<input type = "submit">
+<input type="text" name = "user_name" value =<%=name%> hidden>
+<input type="text" name = "age" value =<%=age%> hidden>
+</form>
